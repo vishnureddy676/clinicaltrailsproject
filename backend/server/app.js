@@ -24,7 +24,7 @@ app.use('/api/trials', trialRoutes);
 
 
 // Create a connection to the SQLite database
- const db = new sqlite3.Database('/usr/src/app/database/database.sqlite');
+ const db = new sqlite3.Database('../database/database.sqlite');
 
 
 
