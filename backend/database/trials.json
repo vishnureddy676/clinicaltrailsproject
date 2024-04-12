@@ -1,0 +1,10 @@
+[{"id":1,"name":"CTR13579","description":"Multi-arm trial evaluating the use of combination therapy for treating a rare autoimmune disorder","startDate":"4/18/2023","endDate":"12/21/2023"},
+{"id":2,"name":"NRT46258","description":"Study evaluating the efficacy of a new drug in treating hypertension","startDate":"4/19/2023","endDate":"3/8/2024"},
+{"id":3,"name":"NTC35768","description":"Placebo-controlled trial testing the efficacy of a new drug for managing symptoms of anxiety","startDate":"4/17/2023","endDate":"3/24/2024"},
+{"id":4,"name":"RNT67451","description":"Double-blind trial investigating the effects of a new drug on sleep quality in insomnia patients","startDate":"5/3/2023","endDate":"3/27/2024"},
+{"id":5,"name":"RCT56789","description":"Randomized controlled trial investigating the effects of a dietary supplement on weight loss","startDate":"4/9/2023","endDate":"1/31/2024"},
+{"id":6,"name":"NTC35768","description":"Randomized controlled trial comparing the effectiveness of two different rehabilitation programs for stroke patients","startDate":"4/26/2023","endDate":"1/31/2024"},
+{"id":7,"name":"NRT46258","description":"Longitudinal trial investigating the impact of a lifestyle intervention on mental health outcomes","startDate":"4/14/2023","endDate":"3/30/2024"},
+{"id":8,"name":"TRC24680","description":"Double-blind study comparing two different exercise regimens for improving cardiovascular health","startDate":"4/1/2023","endDate":"12/14/2023"},
+{"id":9,"name":"TCR78451","description":"Double-blind trial testing the effects of a new drug on cognitive function in older adults","startDate":"4/3/2023","endDate":"4/3/2024"},
+{"id":10,"name":"TNR64827","description":"Cross-over study comparing the benefits of two different physical activity programs for weight loss","startDate":"4/24/2023","endDate":"1/1/2024"}]

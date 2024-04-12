@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Participant List</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">Clinical Trial Manager</a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="participant-list.html">Participants</a></li>
+        <li><a href="trial-management.html">Trials</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 style="margin-top: 5%;">Clinical Trials</h1>
+    <table id="clinical">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>description</th>
+          <th>startDate</th>
+          <th>endDate</th>
+
+        </tr>
+      </thead>
+      <tbody id="clinicallist">
+        <!-- Participant rows will be dynamically generated here -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Clinical Trial Participant Manager. All rights reserved.</p>
+  </footer>
+
+  <script src="js/trail-management.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,366 @@
+/* Reset and Global Styles */
+*body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+
+}
+
+header {
+  width: 100%;
+  background-color: #4998ed;
+  color: #fff;
+  padding: 20px 0;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+header div a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+  /* Remove underlines */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #0056b3;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 20px;
+  height: 390px;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+  padding-right: 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+main h1 {
+  margin-left: 10%;
+
+
+}
+
+#home {
+
+  margin-left: 1px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+  opacity: 1;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+footer {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+
+}
+
+footer p {
+  margin: 0;
+}
+
+#clinical {
+  width: 90%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: 3%;
+  background-color: #fff;
+
+}
+
+#participantdetailheader{
+  margin-left: 20px;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+  background-color: #fff;
+}
+
+th,
+td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #6c7ae0;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+  background-color: #ebe7f8;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Styles for Participant Detail */
+#participantDetail {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#participantDetail h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#participantDetail p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#participantDetail p:last-child {
+  margin-bottom: 0;
+}
+
+/* Styles for Back Button */
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+main {
+  width: 90%;
+}
+
+
+
+
+main li {
+  position: absolute;
+
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 0.9em;
+  height: auto;
+  padding: 12px;
+
+}
+
+main li:hover {
+  background-color: #0056b3;
+}
+
+main li::after {
+  content: "+";
+  font-size: 1em;
+  margin-left: 5px;
+}
+
+main li a {
+  color: white;
+  text-decoration: none;
+}
+
+.notification {
+  position: fixed;
+  bottom: 80px;
+  /* Adjust as needed */
+  right: 5px;
+  /* Adjust as needed */
+  background-color: orange;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1em;
+  z-index: 9999;
+  animation: fadeOut 10s forwards;
+  /* Add animation for fading out */
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Styles for View, Edit, and Delete links */
+td a {
+  text-decoration: none;
+  /* Remove underlines */
+  margin-right: 10px;
+  /* Add spacing between links */
+  position: relative;
+  /* Positioning for tooltips */
+}
+
+/* Tooltip styles */
+td a::after {
+  content: attr(title);
+  /* Show tooltip text */
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  visibility: hidden;
+  /* Hide tooltip by default */
+  opacity: 0;
+  /* Hide tooltip by default */
+  transition: opacity 0.3s;
+  bottom: 150%;
+  /* Position above the link */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Show tooltip on hover */
+td a:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+#searchInput {
+  width: 300px;
+  /* Adjust width as needed */
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  position: absolute;
+  top: 22%;
+  right: 10.5%;
+}
+
+
+
+/* Media Queries for Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  main li {
+    top: 20%;
+    left: 10%
+  }
+
+  table {
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+
+  #searchInput {
+    top: 19%;
+    right: 2%;
+    width: 250px;
+
+  }
+}
+
+/* Media Queries for Desktops */
+@media screen and (min-width: 769px) {
+  main li {
+    top: 23%;
+    /* Adjust top position as needed */
+    left: 10%;
+  }
+
+  table {
+    margin: 10% 10%;
+
+  }
+}

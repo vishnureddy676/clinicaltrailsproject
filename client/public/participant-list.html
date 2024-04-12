@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Participant List</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">Clinical Trial Manager</a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="participant-list.html">Participants</a></li>
+        <li><a href="trial-management.html">Trials</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Participant List</h1>
+    <input type="text" id="searchInput" placeholder="Search for names.." title="Type in a name">
+    <li id="addparticipant"><a href="participant-form.html">Add Participant</a></li>
+    <table id="myTable">
+      <thead>
+        <tr>
+          <th data-column="name">Name
+            <i class="fa fa-sort"></i>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Trial Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="participantList">
+        <!-- Participant rows will be dynamically generated here -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Clinical Trial Participant Manager. All rights reserved.</p>
+  </footer>
+
+  <script src="js/participant-list.js"></script>
+  <script src="js/delete-participant.js"></script>
+  <script src="js/search-participant.js"></script>
+  <script src="js/sort-partcipant.js"></script>
+</body>
+
+</html>

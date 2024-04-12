@@ -1,0 +1,150 @@
+[
+    {
+      "participantId": 1,
+      "trialId": 1
+    },
+    {
+      "participantId": 1,
+      "trialId": 3
+    },
+    {
+      "participantId": 2,
+      "trialId": 1
+    },
+    {
+      "participantId": 2,
+      "trialId": 2
+    },
+    {
+      "participantId": 3,
+      "trialId": 2
+    },
+    {
+      "participantId": 3,
+      "trialId": 4
+    },
+    {
+      "participantId": 4,
+      "trialId": 1
+    },
+    {
+      "participantId": 5,
+      "trialId": 3
+    },
+    {
+      "participantId": 6,
+      "trialId": 2
+    },
+    {
+      "participantId": 6,
+      "trialId": 4
+    },
+    {
+      "participantId": 7,
+      "trialId": 1
+    },
+    {
+      "participantId": 8,
+      "trialId": 3
+    },
+    {
+      "participantId": 9,
+      "trialId": 2
+    },
+    {
+      "participantId": 10,
+      "trialId": 4
+    },
+    {
+      "participantId": 11,
+      "trialId": 1
+    },
+    {
+      "participantId": 11,
+      "trialId": 3
+    },
+    {
+      "participantId": 12,
+      "trialId": 2
+    },
+    {
+      "participantId": 13,
+      "trialId": 4
+    },
+    {
+      "participantId": 14,
+      "trialId": 1
+    },
+    {
+      "participantId": 15,
+      "trialId": 3
+    },
+    {
+      "participantId": 16,
+      "trialId": 2
+    },
+    {
+      "participantId": 17,
+      "trialId": 4
+    },
+    {
+      "participantId": 18,
+      "trialId": 1
+    },
+    {
+      "participantId": 19,
+      "trialId": 3
+    },
+    {
+      "participantId": 20,
+      "trialId": 2
+    },
+    {
+      "participantId": 21,
+      "trialId": 4
+    },
+    {
+      "participantId": 22,
+      "trialId": 1
+    },
+    {
+      "participantId": 23,
+      "trialId": 3
+    },
+    {
+      "participantId": 24,
+      "trialId": 2
+    },
+    {
+      "participantId": 25,
+      "trialId": 4
+    },
+    {
+        "participantId": 25,
+        "trialId": 7
+      },
+      {
+        "participantId": 25,
+        "trialId": 10
+      },
+    {
+      "participantId": 26,
+      "trialId": 1
+    },
+    {
+      "participantId": 27,
+      "trialId": 3
+    },
+    {
+      "participantId": 28,
+      "trialId": 2
+    },
+    {
+      "participantId": 29,
+      "trialId": 4
+    },
+    {
+      "participantId": 30,
+      "trialId": 1
+    }
+  ]
